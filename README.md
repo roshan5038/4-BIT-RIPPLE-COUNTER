@@ -29,10 +29,10 @@ Procedure
 
 1.Increment count on each positive edge of the clock. 2.Reset count to zero when it reaches 15. 3.Generate clock signal (clk). 4.Instantiate the RippleCounter module. 5.Conduct functional testing by displaying the count at each clock cycle for 16 cycles.
 
-PROGRAM
-
- Developed by: ROSHAN V
+  Developed by: ROSHAN V
  RegisterNumber: 25004228
+ 
+PROGRAM
 module RippleCounter(
    input wire clk,  // Clock input
    output reg [3:0] count // 4-bit counter output
@@ -90,6 +90,8 @@ initial begin
 end
 
 endmodule
+
+
 RTL LOGIC FOR 4 Bit Ripple Counter
 
 <img width="756" height="410" alt="image" src="https://github.com/user-attachments/assets/22ba0b7d-4c56-4b99-a85f-07f2edec8256" />
