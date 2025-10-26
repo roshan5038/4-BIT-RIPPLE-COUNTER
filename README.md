@@ -33,6 +33,7 @@ Procedure
  RegisterNumber: 25004228
  
 PROGRAM
+
 module RippleCounter(
    input wire clk,  // Clock input
    output reg [3:0] count // 4-bit counter output
@@ -90,7 +91,6 @@ initial begin
 end
 
 endmodule
-
 
 RTL LOGIC FOR 4 Bit Ripple Counter
 
